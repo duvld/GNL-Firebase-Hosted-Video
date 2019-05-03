@@ -1,3 +1,4 @@
+console.log('in server.js in root');
 require("dotenv").config();
 var path = require("path");
 var express = require("express");
@@ -21,7 +22,7 @@ if(process.env.NODE_ENV === "DEV") { // Configuration for development environmen
 }
 
 // Endpoint to generate access token
-app.get('/token', function(request, response) {
+app.get('/toke.json', function(request, response) {
    var identity = faker.name.findName();
 
    // Create an access token which we will sign and return to the client,

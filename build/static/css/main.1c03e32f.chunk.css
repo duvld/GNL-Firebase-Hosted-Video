@@ -1,0 +1,2 @@
+.flex-container{display:flex;border:1px solid green;justify-content:space-between;padding:5px;margin-top:10px;width:50%}.flex-item{margin:5px}.flex-item:first-child{flex:2 1}.flex-item:nth-child(2){flex:1 1}.flex-item:last-child{background-color:beige;flex:1 1;flex-direction:column;overflow-y:scroll;width:100%}#remote-media video{width:100%}#roomname{display:none}#profile{width:50%;margin-bottom:20px}
+/*# sourceMappingURL=main.1c03e32f.chunk.css.map */

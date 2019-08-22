@@ -52,7 +52,7 @@ export default class VideoComponent extends Component {
 	// 		console.log(error);
 	// });
 
-		const {identity, token} = {"identity":"Jonas Davis","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsImN0eSI6InR3aWxpby1mcGE7dj0xIn0.eyJqdGkiOiJTSzg0OGNkZTAzNDlmYTRlZTc1ZmE0Njk4ZTE4NTUxYTQyLTE1NTY5MDYyODciLCJncmFudHMiOnsiaWRlbnRpdHkiOiJKb25hcyBEYXZpcyIsInZpZGVvIjp7fX0sImlhdCI6MTU1NjkwNjI4NywiZXhwIjoxNTU2OTA5ODg3LCJpc3MiOiJTSzg0OGNkZTAzNDlmYTRlZTc1ZmE0Njk4ZTE4NTUxYTQyIiwic3ViIjoiQUNhYTdlM2NmY2M0MDMyN2VkYmQzZDc5YTBjZWQ4YmM3MSJ9.cfG-fl8eFuPsqJWb0zNIfng_ScBzuGps6fuwPv0gyiE"};
+		const {identity, token} = {"identity":"Jerrold Armstrong","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCIsImN0eSI6InR3aWxpby1mcGE7dj0xIn0.eyJqdGkiOiJTSzY1ODQ0MzgxYzAwMjUwYmIxZWE4NmU0M2M3ZjRmNzg5LTE1NjY1MDUyNTUiLCJncmFudHMiOnsiaWRlbnRpdHkiOiJKZXJyb2xkIEFybXN0cm9uZyIsInZpZGVvIjp7fX0sImlhdCI6MTU2NjUwNTI1NSwiZXhwIjoxNTY2NTA4ODU1LCJpc3MiOiJTSzY1ODQ0MzgxYzAwMjUwYmIxZWE4NmU0M2M3ZjRmNzg5Iiwic3ViIjoiQUM1OGZiYzllZjRiZTMzNTMwMmY2ODk0MzUxN2ExY2UxMSJ9.OyRQw9al4zjOa7pL4F5-cHVCeM7Wq2v_GAG3NvGL8oc"};
 		this.setState({identity, token});
 		console.log("id: " + identity + " token: " + token);
 
